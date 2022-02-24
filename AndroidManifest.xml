@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="4"
+    android:versionName="1.21.4"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="me.createbitcoins.androidbitcoingenerator"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:theme="@ref/0x7f100006"
+        android:label="@ref/0x7f0f002a"
+        android:icon="@ref/0x7f0e0000"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f0e0002"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+
+        <activity
+            android:theme="@ref/0x7f100007"
+            android:name="me.createbitcoins.androidbitcoingenerator.MainActivity"
+            android:screenOrientation="1"
+            android:configChanges="0x80">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
